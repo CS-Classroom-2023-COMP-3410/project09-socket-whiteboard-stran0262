@@ -1,0 +1,33 @@
+/* Basic page styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+/* Canvas Styling */
+#canvas {
+    border: 1px solid #000;
+    width: 80vw;
+    height: 70vh;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+/* Controls Layout */
+#controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Input Styling */
+#colorPicker, #brushSize, #clearBoard {
+    font-size: 16px;
+}
+
